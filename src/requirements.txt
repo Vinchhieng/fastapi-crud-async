@@ -8,3 +8,6 @@ uvicorn==0.20.0
 # dev
 pytest==7.2.0
 httpx==0.23.1
+
+# Starlette 0.21 TestClient requires AnyIO 3's start_blocking_portal.
+anyio==3.7.1
